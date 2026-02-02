@@ -42,6 +42,7 @@
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#license">License</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -57,7 +58,7 @@
 
 - **Difficulty Levels**: Play in **Easy**, **Medium**, or **Hard** mode with varying numbers of cards.
 
-- **Pokémon Cards**: Every round is fueled by Pokémon data fetched randomly from PokéAPI, so each session offers a fresh experience with different Pokémon to memorize.
+- **Pokémon Cards**: Every round is fueled by Pokémon data fetched randomly from [PokéAPI][PokéAPI], so each session offers a fresh experience with different Pokémon to memorize.
 
 - **Dynamic Gameplay**: The cards reshuffle after each click, making the game progressively harder as you go.
 
@@ -68,9 +69,10 @@ Whether you're a Pokémon fan or just looking for a fun memory challenge, PokeMe
 ### Built With
 
 - [![React][React.js]][React-url]
-- ![JavaScript][Javascript]
+- [![TypeScript][TypeScript]][TypeScript-url]
 - ![CSS][CSS]
 - ![HTML][HTML]
+- [![Vite][Vite]][Vite-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -155,6 +157,15 @@ This project is distributed under the MIT License - see [LICENSE][license-url] f
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- Acknowledgments -->
+
+## Acknowledgments
+
+* [PokéAPI][PokéAPI] - An excellent free RESTful API used for fetching Pokémon data and sprites.
+* [Pokémon](https://www.pokemon.com/) - Pokémon and Pokémon character names are trademarks of Nintendo.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
@@ -166,6 +177,10 @@ This project is distributed under the MIT License - see [LICENSE][license-url] f
 [product-screenshot]: src/assets/screenshot.png
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
-[Javascript]: https://img.shields.io/badge/JavaScript-%23F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
+[TypeScript]: https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
+[TypeScript-url]: https://www.typescriptlang.org/
 [CSS]: https://img.shields.io/badge/CSS-%23264DE4?style=for-the-badge&logo=css&logoColor=white
 [HTML]: https://img.shields.io/badge/HTML-%23E44D26?style=for-the-badge&logo=html5&logoColor=white
+[Vite]: https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E
+[Vite-url]: https://vitejs.dev/
+[PokéAPI]: https://pokeapi.co
